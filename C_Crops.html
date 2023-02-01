@@ -1,0 +1,231 @@
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        /* background: #232427; */
+        /* background: #282927; */
+        background-image: url(crop_img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    body .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 40px 0;
+    }
+
+    body .container .card {
+        position: relative;
+        min-width: 250px;
+        /*320 */
+        height: 370px;
+        /*440*/
+        box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+            inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+            5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        margin: 30px;
+        transition: 0.5s;
+    }
+
+    body .container .card:nth-child(1) .box .content a {
+        background: #2196f3;
+    }
+
+    body .container .card:nth-child(2) .box .content a {
+        background: #2196f3;
+    }
+
+    body .container .card:nth-child(3) .box .content a {
+        background: #2196f3;
+    }
+
+    body .container .card:nth-child(4) .box .content a {
+        background: #2196f3;
+    }
+
+    body .container .card:nth-child(5) .box .content a {
+        background: #2196f3;
+    }
+
+    body .container .card:nth-child(6) .box .content a {
+        background: #2196f3;
+    }
+
+    body .container .card .box {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        /* background: #2a2b2f; */
+        background: rgba(22, 22, 22, 0.725);
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* overflow: hidden; */
+        transition: 0.2s;
+    }
+
+    body .container .card .box:hover {
+        transform: translateY(-50px);
+    }
+
+    body .container .card .box:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        /* background: rgba(1, 82, 28, 0.725); */
+    }
+
+    body .container .card .box .content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    body .container .card .box .content h2 {
+        position: absolute;
+        top: -10px;
+        right: 30px;
+        font-size: 8rem;
+        /* color: rgba(2, 136, 25, 0.505); */
+    }
+
+    body .container .card .box .content h3 {
+        font-size: 1.8rem;
+        color: #fff;
+        z-index: 1;
+        transition: 0.5s;
+        margin-bottom: 15px;
+    }
+
+    body .container .card .box .content p {
+        font-size: 1rem;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.9);
+        z-index: 1;
+        transition: 0.5s;
+    }
+
+    body .container .card .box .content a {
+        position: relative;
+        display: inline-block;
+        padding: 8px 20px;
+        background: black;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transition: 0.5s;
+    }
+
+    body .container .card .box .content a:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+        background: #fff;
+        color: #000;
+    }
+</style>
+
+
+<div class="container">
+    <div class="card">
+        <div class="box">
+            <div class="content">
+
+                <h3>Maize</h3>
+                <!-- <p>It is one of the most versatile emerging crops having wider adaptability. Globally, maize is known as
+                    queen of cereals
+                    because of its highest genetic yield potential.</p> -->
+                <a href="C_maize.htm">Maize</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="box">
+            <div class="content">
+
+                <h3>Sugarcane</h3>
+                <!-- <p>Sugarcane crop is able to efficiently fix solar energy, yielding some 55 tonnes of dry matter per
+                    hectare of land
+                    annually. After harvest, the crop produces sugar juice and bagasse, the fibrous dry matter.</p> -->
+                <a href="C_sugarcane.htm">Sugarcane</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="box">
+            <div class="content">
+
+                <h3>Rice</h3>
+                <!-- <p>Rice cultivation is well-suited to countries and regions with low labor costs and high rainfall, as
+                    it is
+                    labor-intensive to cultivate and requires ample water.</p> -->
+                <a href="C_Rice.html">Rice</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="box">
+            <div class="content">
+
+                <h3>Jower</h3>
+
+                <a href="C_jower.htm">Jower</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="box">
+            <div class="content">
+
+                <h3>Cotton</h3>
+                <!-- <p>Wheat is mainly a rabi (winter) season crop in India. Wheat is grown in a variety of soils of India.
+                    Soils with a clay
+                    loam or loam texture, good structure and moderate water holding capacity are ideal for wheat 
+                cultivation.</p> -->
+                <a href="C_cotton.html">Cotton</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="box">
+            <div class="content">
+
+                <h3>Groundnut</h3>
+                <!-- <p>Groundnut (Arachis hypogaea L.) is important oilseed crop and oil content of the seed varies from
+                    44-50%, depending on
+                    the varieties and agronomic conditions.</p> -->
+                <a href="C_groundnut.htm">Groundnut</a>
+            </div>
+        </div>
+    </div>
+
+</div>
